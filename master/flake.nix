@@ -11,7 +11,6 @@
   inputs.src-tnetstring-master.ref   = "refs/heads/master";
   inputs.src-tnetstring-master.owner = "mahlonsmith";
   inputs.src-tnetstring-master.repo  = "nim-tnetstring";
-  inputs.src-tnetstring-master.dir   = "";
   inputs.src-tnetstring-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
